@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Time</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <h1>Need help planning your drive?</h1>
+    <div id="main">
+      <form>
+        <p>What time do you need to arrive by? (Use military time.)
+          <input type="text" id="arrivalHour" value="hh" size="2"/>
+          :
+          <input type="text" id="arrivalMinute" value="mm" size="2"/>
+        </p>
+        <p>How long will the drive take (in minutes)?
+          <input type="text" id="driveMinutes"/>
+        </p>
+        <p>How many minutes before you need to leave would you like to be notified?
+          <input type="text" id="bufferMinutes"/>
+        </p>
+        <button>Find out when to leave.</button>
+      </form>
+    </div>
+  </body>
+</html>
